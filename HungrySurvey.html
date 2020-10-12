@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="SurveyPage" content="width=device-width, initial-scale=1">
+
+		<title>HUNGRY SURVEY</title>
+		<style>
+			.header {
+				background: #4d4d4d;
+				color: white;
+				padding: 10px;
+				text-align: center;
+				font-family: "Lucida Console", Courier, monospace;
+				font-size: 45px;
+			}
+			th td {
+				text-align:center;
+			}
+			form {
+				color: #4d4d4d;
+				text-align: center;
+				font-family: "Lucida Console", Courier, monospace;
+			}
+			h2 {
+				font-size: 40px;
+				padding: 10px;
+			}
+			p {
+				font-size: 20px;
+				margin-top: 60px;
+			}
+			table.center {
+				margin-left: auto;
+				margin-right: auto;
+				text-align: left;
+			}
+			.footer {
+				position: fixed;
+				text-align: center;
+				font-family: "Lucida Console", Courier, monospace;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				background-color: #4d4d4d;
+				color: white;
+				text-align: center;
+				height: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<h1>HUNGRY SURVEY</h1>
+		</div>
+		<form>
+			<h2> <b> Submit your Survey Today! </b> </h2>
+			<p> First Name </p>
+				<INPUT TYPE="text" NAME="firstName" SIZE=40 MAXLENGTH=80>
+			<p> Last Name </p>
+				<INPUT TYPE="text" NAME="lastName" SIZE=40 MAXLENGTH=80>
+			<p> Year <SELECT name="year">
+				<OPTION SELECTED VALUE="">Select one
+				<OPTION VALUE="1">Freshman
+				<OPTION VALUE="2">Sophomore
+				<OPTION VALUE="3">Junior
+				<OPTION VALUE="4">Senior
+				<OPTION VALUE="5">Graduate
+			</select> </p>
+			<p> Gender </p>
+				<INPUT TYPE="radio" NAME="gender" VALUE="1">Male 
+				<INPUT TYPE="radio" NAME="gender" VALUE="2">Female
+				<INPUT TYPE="radio" NAME="gender" VALUE="3">Other
+			</p>
+			<p> <b>Select All You Have Eaten At</b> </p>
+			<table class="center">
+				<tbody>
+					<tr>
+						<td>
+							<INPUT TYPE="checkbox" NAME="food1" VALUE="Commons"
+							<LABEL FOR="food1"> Highlander Commons </label>
+						</td>
+						<td>
+							<INPUT TYPE="checkbox" NAME="food2" VALUE="C-Store"
+							<LABEL FOR="food2"> C-Store Express </label>
+						</td>
+						<td>
+							<INPUT TYPE="checkbox" NAME="food3" VALUE="Grill"
+							<LABEL FOR="food3"> The Grill </label>
+						</td>
+						<td>
+							<INPUT TYPE="checkbox" NAME="food4" VALUE="VM"
+							<LABEL FOR="food4"> Village Market </label>
+						</td>
+					<tr>
+						<td>
+							<INPUT TYPE="checkbox" NAME="food5" VALUE="Pub"
+							<LABEL FOR="food5"> Highlander Pub </label>
+						</td>
+						<td>
+							<INPUT TYPE="checkbox" NAME="food6" VALUE="Sushi"
+							<LABEL FOR="food6"> Bonsai Sushi </label>
+						</td>
+						<td>
+							<INPUT TYPE="checkbox" NAME="food7" VALUE="Salad"
+							<LABEL FOR="food7"> Farm to Campus Salads </label>
+						</td>
+						<td>
+							<INPUT TYPE="checkbox" NAME="food8" VALUE="Smash"
+							<LABEL FOR="food8"> Smash Burger </label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<INPUT TYPE="checkbox" NAME="food9" VALUE="Cafe"
+							<LABEL FOR="food9"> Tech Cafe </label>
+						</td>
+						<td>
+							<INPUT TYPE="checkbox" NAME="food10" VALUE="Forte"
+							<LABEL FOR="food10"> Forte's </label>
+						</td>
+						<td>
+							<INPUT TYPE="checkbox" NAME="food11" VALUE="Sandwich"
+							<LABEL FOR="food11"> Gourmet Sandwich Shop </label>
+						</td>
+						<td>
+							<INPUT TYPE="checkbox" NAME="food12" VALUE="Taco"
+							<LABEL FOR="food12"> Taco Bell </label>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+          <p><INPUT TYPE=submit VALUE="Submit"> <INPUT TYPE=reset VALUE="Reset"></p>
+		</form>
+    <div class="footer"></div>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
